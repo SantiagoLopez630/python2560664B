@@ -15,3 +15,5 @@ elif 10000>a:
     print('el numero tiene 4 cifras')
 else :
     print("")
+
+    
