@@ -1,4 +1,10 @@
 
+n1, n2 = input=("Ingrese el numerador y denominador de la primera fraccion separados por un espacio").split
+F1, F2 = input==("Ingrese el numerador y denominador de la segunda fraccion separados por un espacio").split
+n1 = int(n1)
+n2 = int(n2)
+F1 = int(F1)
+F2 = int(F2)
 def sumar_fracciones(fracciones):
     suma = 0
 
@@ -36,6 +42,3 @@ resultado1 = restar_fracciones(numeros)
 resultado2= multiplicar_fracciones(numeros)
 resultado3= dividir_fracciones(numeros)
 print(resultado)
-print(resultado1)
-print(resultado2)
-print(resultado3)
