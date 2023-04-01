@@ -5,4 +5,3 @@ def modificar(conexion,tabla,campo,dato,id):
     con.commit()
     print('Modificación exitosa')
 
-<
